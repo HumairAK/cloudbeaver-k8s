@@ -10,3 +10,7 @@ spec:
     name: cloudbeaver
   port:
     targetPort: web
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Allow
+  wildcardPolicy: None
